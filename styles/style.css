@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #2b6c40;
+    color: #fff;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+.board{
+    margin: 80px 0px;
+}
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.square-center {
+    border: 5px solid white;
+}
+
+.square-horizontal {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+.square-vertical {
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.symbol {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 57px;
+    text-align: center;
+    color: white;
+}

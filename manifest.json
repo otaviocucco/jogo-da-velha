@@ -1,0 +1,8 @@
+{
+  "background_color": "white",
+  "description": "Jogo da Velha",
+  "display": "standalone",
+  "name": "Jogo da Velha",
+  "short_name": "Jogo da Velha",
+  "start_url": "http://3.19.194.42/jogodavelha/"
+}

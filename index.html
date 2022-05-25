@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+	<link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+
+    <title>Jogo da velha</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jogo da velha</h1>
+        <div class="board">
+            <div class="line">
+                <div id="0" class="square"></div>
+                <div id="1" class="square square-vertical"></div>
+                <div id="2" class="square"></div>
+            </div>
+            <div class="line">
+                <div id="3" class="square square-horizontal"></div>
+                <div id="4" class="square square-center"></div>
+                <div id="5" class="square square-horizontal"></div>
+            </div>
+            <div class="line">
+                <div id="6" class="square"></div>
+                <div id="7" class="square square-vertical"></div>
+                <div id="8" class="square"></div>
+            </div>
+        </div>
+        <p id="msg"></p>
+        <button onclick="restartGame()">Novo Jogo</button>
+        <div>
+            <p><span id="placarX">0</span> X vitorias</p>
+            <p><span id="placarO">0</span> O vitorias</p>
+            <p><span id="placarEmpates">0</span> empates</p>
+        </div>
+        
+        <button onclick="resetScoreboard()">Zerar Placar</button>
+    </div>
+    <script src="./scripts/game.js"></script>
+    <script src="./scripts/interface.js"></script>
+
+</body>
+
+</html>
